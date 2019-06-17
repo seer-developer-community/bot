@@ -17,7 +17,7 @@ npm run build
 cd..
 mv robot/dist app/app
 
-copy app/aunch.ico app/app/launch.ico
+copy app/launch.ico app/app/launch.ico
 ```
 进入打包目录，打包
 ```
