@@ -10,6 +10,7 @@ git clone https://github.com/seer-developer-community/bot
 
 依次执行
 ```
+cd bot
 cd robot
 npm install
 npm run build
