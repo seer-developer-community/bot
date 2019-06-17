@@ -27,7 +27,7 @@ mv robot/dist app/app
 
 copy app/launch.ico app/app/launch.ico
 ```
-进入打包目录，编译打包所需依赖，将web应用文件打包为可执行文件
+进入打包目录，编译打包所需依赖，将web应用文件打包为可执行文件，在安装依赖时，下载electron会比较花时间，请自备梯子。
 ```
 cd app
 npm install
