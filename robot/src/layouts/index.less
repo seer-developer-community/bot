@@ -1,0 +1,64 @@
+.Layout{
+  overflow: hidden;
+  .Header{
+    position: absolute;
+    height:48px;
+    top:0px;
+    width:100%;
+    line-height: 48px;
+    -webkit-app-region: drag;
+    box-shadow:0px 1px 10px black;
+    z-index: 2;
+    .Logo {
+      width: 35px;
+      height: 40px;
+      background: url("../assets/resources/logo-ico-blue.png") no-repeat;
+      background-size:100%;
+      margin:3px 24px 0px 0px;
+      float:left;
+    }
+    span{
+      color:#e6e9ee;
+      font-size: 24px;
+    }
+    .Menu{
+      position: absolute;
+      top:0px;
+      left:330px;
+      -webkit-app-region: no-drag;
+    }
+    .WindowButtons{
+      list-style: none;
+      position: absolute;
+      right: 16px;
+      top:16px;
+      li{
+          -webkit-app-region: no-drag;
+          float: left;
+          width: 25px;
+          height: 25px;
+          line-height: 25px;
+          text-align: center;
+          cursor: pointer;
+          transition: 0.3s linear all;
+          margin-right: 5px;
+          color: white;
+          &:nth-child(n+2):hover{
+              background: #F75858;
+          }
+      }
+    }
+  }
+  
+  .Content{
+    background: #e6e9ee;
+    padding:10px 0px;
+    position: absolute;
+    top:48px;
+    bottom: 0px;
+    width:100%;
+    padding: 16px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
