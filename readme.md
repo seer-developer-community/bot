@@ -4,7 +4,7 @@
 
 mkdir seer-robot
 cd seer-robot
-git clone http://git地址
+git clone https://github.com/seer-developer-community/bot
 
 步骤2
 
